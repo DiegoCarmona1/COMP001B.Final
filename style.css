@@ -32,7 +32,7 @@ body {
 footer {
  display: grid;
  grid-template-areas: 'html css lic access hub';
- column-gap: 20px;
+ column-gap: 50px;
 }
 .zen-validate-html {
     grid-area: html;
@@ -48,4 +48,18 @@ footer {
 }
 .zen-github {
     grid-area: hub;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas:'select select arch arch resource resource' ;
+}
+.design-selection {
+    grid-area: select;
+}
+.design-archives  {
+    grid-area: arch;
+}
+.zen-resources {
+    grid-area: resource;
 }
