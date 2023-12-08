@@ -1,15 +1,17 @@
 body {
 
 }
-.page-wrapper{
+
+.intro {
+    
+}
+
+#zen-supporting{
     display: grid;
     grid-template-areas: 
-    ''
-    ''
-    '' ;
-}
-.preamble {
-    grid-area: head;
+    'exp exp req req part part'
+    'exp exp req req part part'
+    'ben ben ben ben ben ben' ;
 }
 
 .explanation {
@@ -26,4 +28,24 @@ body {
 
 .requirements {
     grid-area: req;
+}
+footer {
+ display: grid;
+ grid-template-areas: 'html css lic access hub';
+ column-gap: 20px;
+}
+.zen-validate-html {
+    grid-area: html;
+}
+.zen-validate-css {
+    grid-area: css;
+}
+.zen-license {
+    grid-area: lic;
+}
+.zen-accessibility {
+    grid-area: access;
+}
+.zen-github {
+    grid-area: hub;
 }
