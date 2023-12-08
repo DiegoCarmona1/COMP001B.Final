@@ -1,0 +1,10 @@
+body {
+
+}
+.page-wrapper{
+    display: grid;
+}
+.preamble {
+    grid-area: head;
+}
+
