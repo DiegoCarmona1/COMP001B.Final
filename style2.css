@@ -1,9 +1,11 @@
 body {
-    background: linear-gradient(rgba(0, 128, 0, 0.719), rgba(255, 166, 0, 0.781), rgba(255, 0, 0, 0.63), rgba(255, 166, 0, 0.712), rgba(0, 128, 0, 0.466));
+    background: linear-gradient(rgba(0, 128, 0, 0.644), rgba(255, 166, 0, 0.582), rgba(255, 0, 0, 0.623),rgba(255, 166, 0, 0.61), rgba(0, 128, 0, 0.521));
     line-height: 20px;
 }
 
-
+h1 {
+    font-size: 7em;
+}
 
 
 
