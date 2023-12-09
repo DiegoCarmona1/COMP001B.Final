@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(green, orange, red, orange, green);
+    line-height: 20px;
+}
+
+
+
+
+
+
+footer {
+    display: grid;
+    grid-template-areas: 'html css lic access hub';
+    column-gap: 50px;
+    position: static;
+   }
+   .zen-validate-html {
+       grid-area: html;
+   }
+   .zen-validate-css {
+       grid-area: css;
+   }
+   .zen-license {
+       grid-area: lic;
+   }
+   .zen-accessibility {
+       grid-area: access;
+   }
+   .zen-github {
+       grid-area: hub;
+   }
