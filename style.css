@@ -1,9 +1,18 @@
 body {
-
+    background: linear-gradient(rgba(99, 98, 98, 0.815),rgb(197, 197, 197))
 }
 
 .intro {
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+abbr {
+    font-style: italic;
+    color: rgba(0, 0, 255, 0.534);
+}
+
+a {
+    text-decoration: none;
 }
 
 #zen-supporting{
@@ -62,4 +71,8 @@ footer {
 }
 .zen-resources {
     grid-area: resource;
+}
+
+h3 {
+
 }
