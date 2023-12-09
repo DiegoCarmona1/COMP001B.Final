@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(rgba(99, 98, 98, 0.815),rgb(197, 197, 197))
+    background: linear-gradient(rgba(99, 98, 98, 0.815),rgb(197, 197, 197));
+    line-height: 20px;
 }
 
 .intro {
@@ -13,6 +14,13 @@ abbr {
 
 a {
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.103);
+    font-size: small;
+}
+a:hover {
+    color:red;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.295);
 }
 
 #zen-supporting{
@@ -21,6 +29,8 @@ a {
     'exp exp req req part part'
     'exp exp req req part part'
     'ben ben ben ben ben ben' ;
+    column-gap: 20px;
+    font-family: Helvetica, sans-serif;
 }
 
 .explanation {
@@ -33,6 +43,7 @@ a {
 
 .benefits {
     grid-area: ben;
+    text-align: center;
 }
 
 .requirements {
@@ -74,5 +85,6 @@ footer {
 }
 
 h3 {
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
