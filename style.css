@@ -9,7 +9,10 @@ body {
 
 .summary {
     float: left;
-    width: 20%;
+    width: 25%;
+    border: 4px solid rgba(245, 245, 220, 0.459);
+    margin: 15px;
+    padding: 5px;
 }
 
 abbr {
