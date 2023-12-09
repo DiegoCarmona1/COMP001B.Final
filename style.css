@@ -7,6 +7,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.summary {
+    float: left;
+    width: 20%;
+}
+
 abbr {
     font-style: italic;
     color: rgba(0, 0, 255, 0.534);
@@ -44,6 +49,7 @@ a:hover {
 .benefits {
     grid-area: ben;
     text-align: center;
+    font-size: large;
 }
 
 .requirements {
@@ -83,7 +89,13 @@ footer {
 .zen-resources {
     grid-area: resource;
 }
-
+h1{
+    font-size: 3em;
+}
+h2{
+    text-align: right;
+    font-size: medium;
+}
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
