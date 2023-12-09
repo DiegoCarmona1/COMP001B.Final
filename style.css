@@ -39,6 +39,7 @@ a:hover {
     'ben ben ben ben ben ben' ;
     column-gap: 20px;
     font-family: Helvetica, sans-serif;
+    margin: 20px;
 }
 
 .explanation {
@@ -53,6 +54,9 @@ a:hover {
     grid-area: ben;
     text-align: center;
     font-size: large;
+    border: 2px solid rgba(224, 224, 13, 0.719);
+    padding: 0px 15px;
+    margin: 5px;
 }
 
 .requirements {
