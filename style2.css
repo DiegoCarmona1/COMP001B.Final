@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(green, orange, red, orange, green);
+    background: linear-gradient(rgba(0, 128, 0, 0.719), rgba(255, 166, 0, 0.781), rgba(255, 0, 0, 0.63), rgba(255, 166, 0, 0.712), rgba(0, 128, 0, 0.466));
     line-height: 20px;
 }
 
