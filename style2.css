@@ -7,8 +7,13 @@ h1 {
     font-size: 6em;
 }
 
+.wrapper {
+    float:right
+}
 
-
+#zen-supporting {
+    display: grid;
+}
 
 footer {
     display: grid;
