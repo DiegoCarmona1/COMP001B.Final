@@ -17,8 +17,9 @@ footer {
     position: fixed;
     top: 0px;
     width: 500px;
-    border: 3px solid black;
+    border: 3px solid burlywood;
     margin-left: 200px;
+    background-color: rgba(245, 245, 220, 0.336);
    }
    .zen-validate-html {
        grid-area: html;
