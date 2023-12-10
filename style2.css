@@ -8,11 +8,14 @@ h1 {
 }
 
 .wrapper {
-    float:right
+    width: 20%;
+    float: right;
 }
 
 #zen-supporting {
     display: grid;
+    float:left;
+    width: 70%;
 }
 
 footer {
