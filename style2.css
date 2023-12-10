@@ -5,6 +5,15 @@ body {
 
 h1 {
     font-size: 6em;
+    margin: 20px;
+}
+
+abbr {
+    font-style: italic;
+}
+
+.intro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .wrapper {
@@ -34,6 +43,7 @@ footer {
     border: 3px solid burlywood;
     right: 0px;
     background-color: rgba(245, 245, 220, 0.336);
+    padding: 5px;
    }
    .zen-validate-html {
        grid-area: html;
@@ -62,5 +72,5 @@ footer {
    }
    a:hover {
     color: blue;
-    
+    box-shadow: 1px 1px 1px 1px rgba(218, 111, 11, 0.507);
    }
