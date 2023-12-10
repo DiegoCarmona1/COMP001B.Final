@@ -14,7 +14,11 @@ footer {
     display: grid;
     grid-template-areas: 'html css lic access hub';
     column-gap: 50px;
-    position: static;
+    position: fixed;
+    top: 0px;
+    width: 500px;
+    border: 3px solid black;
+    margin-left: 200px;
    }
    .zen-validate-html {
        grid-area: html;
