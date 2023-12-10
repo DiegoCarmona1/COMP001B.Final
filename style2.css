@@ -10,12 +10,18 @@ h1 {
 .wrapper {
     width: 20%;
     float: right;
+    color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 5px;
 }
 
 #zen-supporting {
     display: grid;
     float:left;
     width: 70%;
+    background-color: rgba(250, 235, 215, 0.329);
+    border: 4px solid rgba(255, 0, 0, 0.377);
+    padding: 20px;
 }
 
 footer {
@@ -31,16 +37,30 @@ footer {
    }
    .zen-validate-html {
        grid-area: html;
+       color:maroon;
    }
    .zen-validate-css {
        grid-area: css;
+       color:maroon;
    }
    .zen-license {
        grid-area: lic;
+       color:maroon;
    }
    .zen-accessibility {
        grid-area: access;
+       color:maroon;
    }
    .zen-github {
        grid-area: hub;
+       color:maroon;
+   }
+    
+   a{
+    color: rgba(255, 255, 0, 0.671);
+    text-decoration: none;
+   }
+   a:hover {
+    color: blue;
+    
    }
